@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>مدونتي</title>
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-blue-600 text-white">
+        <div class="container mx-auto p-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">قمر </h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-blue-300">الرئيسية</a></li>
+                    <li><a href="#" class="hover:text-blue-300">المقالات</a></li>
+                    <li><a href="#" class="hover:text-blue-300">الفئات</a></li>
+                    <li><a href="#" class="hover:text-blue-300">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-6">Lorem, ipsum.</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="plat_4.jpg" alt="مقال 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg">Lorem, ipsum.</h3>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="plat_3.jpg" alt="مقال 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg"> Lorem, ipsum.</h3>
+                        <p class="text-gray-600"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="plat_2.jpg" alt="مقال 3" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg"> Lorem, ipsum.</h3>
+                        <p class="text-gray-600"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, laborum!.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-6">الفئات</h2>
+            <div class="flex justify-center space-x-4">
+                <span class="bg-blue-600 text-white px-4 py-2 rounded-full">تكنولوجيا</span>
+                <span class="bg-blue-600 text-white px-4 py-2 rounded-full">صحة</span>
+                <span class="bg-blue-600 text-white px-4 py-2 rounded-full">سفر</span>
+                <span class="bg-blue-600 text-white px-4 py-2 rounded-full">تعليم</span>
+            </div>
+        </div>
+    </section>
+    <section class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-6">المقالات الأخيرة</h2>
+            <ul class="space-y-4">
+                <li class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="font-semibold">عنوان المقال 4</h3>
+                    <p class="text-gray-600">تاريخ النشر: 20 أكتوبر 2024</p>
+                </li>
+                <li class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="font-semibold">عنوان المقال 5</h3>
+                    <p class="text-gray-600">تاريخ النشر: 18 أكتوبر 2024</p>
+                </li>
+                <li class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="font-semibold">عنوان المقال 6</h3>
+                    <p class="text-gray-600">تاريخ النشر: 15 أكتوبر 2024</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-6">أرسل لنا رأيك</h2>
+            <form class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">الاسم:</label>
+                    <input type="text" id="name" class="mt-1 block w-full p-2 border border-gray-300 rounded">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">البريد الإلكتروني:</label>
+                    <input type="email" id="email" class="mt-1 block w-full p-2 border border-gray-300 rounded">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">رسالتك:</label>
+                    <textarea id="message" class="mt-1 block w-full p-2 border border-gray-300 rounded"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-500">إرسال</button>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>حقوق الطبع والنشر &copy; 2024. جميع الحقوق محفوظة.</p>
+            <div class="flex justify-center space-x-4 mt-2">
+                <a href="#" class="hover:text-blue-300">فيسبوك</a>
+                <a href="#" class="hover:text-blue-300">تويتر</a>
+                <a href="#" class="hover:text-blue-300">إنستغرام</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
